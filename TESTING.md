@@ -63,13 +63,6 @@ python tests/run_tests.py --no-gui
 python tests/run_tests.py --quick
 ```
 
-### Comprehensive Test Suite
-
-```bash
-# Run everything (tests + examples)
-python run_all_tests.py
-```
-
 ## Test Categories
 
 ### Unit Tests
