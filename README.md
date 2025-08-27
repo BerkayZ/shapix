@@ -1,6 +1,11 @@
 # Shapix
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI version](https://badge.fury.io/py/shapix.svg)](https://badge.fury.io/py/shapix)
+
 A geometry engine for Python with text-based syntax and PNG export capabilities.
+
+[![Demo](/examples/educational/circle_theorems.png)](/examples/educational/circle_theorems.png)
 
 ## Features
 
