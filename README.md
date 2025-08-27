@@ -1,6 +1,6 @@
 # Shapix
 
-A modern geometry engine for Python with text-based syntax and PNG export capabilities.
+A geometry engine for Python with text-based syntax and PNG export capabilities.
 
 ## Features
 

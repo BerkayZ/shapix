@@ -19,7 +19,7 @@ def main():
     POINT B -86.6 -50 "B" show_label=true label_position=bottom_left
     POINT C 86.6 -50 "C" show_label=true label_position=bottom_right
     
-    TRIANGLE A B C color=darkgreen fill_color=lightgreen show_vertices=true
+    TRIANGLE A B C color=darkgreen fill_color=lightgreen show_vertices=false 
     
     # Show radii to vertices
     LINE O A color=red

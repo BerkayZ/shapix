@@ -11,14 +11,14 @@ def read_readme():
     if os.path.exists(readme_path):
         with open(readme_path, 'r', encoding='utf-8') as f:
             return f.read()
-    return "Shapix - A modern geometry engine for Python"
+    return "Shapix - A geometry engine for Python"
 
 setup(
     name="shapix",
     version="0.1.0",
-    author="Berkay Z",
-    author_email="berkay@example.com",
-    description="A modern geometry engine for Python with text-based syntax and PNG export",
+    author="BerkayZ",
+    author_email="zelyurtberkay@gmail.com",
+    description="A geometry engine for Python with text-based syntax and PNG export",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/berkayz/shapix",
@@ -73,8 +73,7 @@ setup(
         "export"
     ],
     project_urls={
-        "Bug Reports": "https://github.com/berkayz/shapix/issues",
-        "Source": "https://github.com/berkayz/shapix",
-        "Documentation": "https://shapix.readthedocs.io/",
+        "Bug Reports": "https://github.com/BerkayZ/shapix/issues",
+        "Source": "https://github.com/BerkayZ/shapix",
     },
 )
