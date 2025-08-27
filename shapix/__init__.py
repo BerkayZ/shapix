@@ -1,5 +1,5 @@
 """
-Shapix - A modern geometry engine for Python
+Shapix - A geometry engine for Python
 
 Shapix provides a simple, text-based syntax for creating geometric shapes
 and exporting them to PNG images. It includes a comprehensive set of 
@@ -12,8 +12,8 @@ from .syntax import GeometrySyntaxParser, export_geometry_syntax
 from .rendering import ShapeRenderer
 
 __version__ = "0.1.0"
-__author__ = "Berkay Z"
-__email__ = "berkay@example.com"
+__author__ = "BerkayZ"
+__email__ = "zelyurtberkay@gmail.com"
 
 __all__ = [
     # Core classes
