@@ -1,7 +1,7 @@
 # Shapix
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI version](https://badge.fury.io/py/shapix.svg)](https://badge.fury.io/py/shapix)
+[![PyPI version](https://badge.fury.io/py/shapix.svg)](https://pypi.org/project/shapix/0.1.0/)
 
 A geometry engine for Python with text-based syntax and PNG export capabilities.
 
@@ -21,8 +21,6 @@ A geometry engine for Python with text-based syntax and PNG export capabilities.
 ```bash
 pip install shapix
 ```
-
-Pypi page: https://pypi.org/project/shapix/0.1.0/
 
 ## Quick Start
 
