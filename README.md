@@ -17,6 +17,8 @@ A geometry engine for Python with text-based syntax and PNG export capabilities.
 pip install shapix
 ```
 
+Pypi page: https://pypi.org/project/shapix/0.1.0/
+
 ## Quick Start
 
 ### Using Text Syntax
