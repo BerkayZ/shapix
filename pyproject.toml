@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shapix"
+version = "0.1.0"
+authors = [
+    {name = "Berkay Z", email = "zelyurtberkay@gmail.com"},
+]
+description = "A modern geometry engine for Python with text-based syntax and PNG export"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education", 
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Education",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "pillow>=8.0.0",
+]
+keywords = [
+    "geometry", 
+    "mathematics", 
+    "visualization", 
+    "education", 
+    "graphics", 
+    "shapes", 
+    "canvas",
+    "png",
+    "export"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.10", 
+    "black>=21.0",
+    "flake8>=3.8",
+    "mypy>=0.910",
+]
+gui = [
+    # tkinter is usually included with Python
+]
+
+[project.scripts]
+shapix = "shapix.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/berkayz/shapix"
+"Bug Reports" = "https://github.com/berkayz/shapix/issues"
+Source = "https://github.com/berkayz/shapix"
+Documentation = "https://shapix.readthedocs.io/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["shapix*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
